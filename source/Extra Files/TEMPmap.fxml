@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TEMPmap">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@mainMenuBckg.png" />
+         </image>
+      </ImageView>
+      <Label alignment="TOP_CENTER" layoutX="216.0" layoutY="175.0" prefHeight="50.0" prefWidth="84.0" style="-fx-wrap-text: TRUE;" text="Level" textAlignment="CENTER" textFill="#ffbf00">
+         <font>
+            <Font name="Treasure Map Deadhand" size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNum" alignment="TOP_CENTER" layoutX="300.0" layoutY="175.0" prefHeight="50.0" prefWidth="84.0" style="-fx-wrap-text: TRUE;" text="#" textAlignment="CENTER" textFill="#ffbf00">
+         <font>
+            <Font name="Treasure Map Deadhand" size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblUser" alignment="TOP_CENTER" layoutX="14.0" layoutY="14.0" prefHeight="50.0" prefWidth="188.0" style="-fx-wrap-text: TRUE;" text="User" textAlignment="CENTER" textFill="#ffbf00">
+         <font>
+            <Font name="Treasure Map Deadhand" size="34.0" />
+         </font>
+      </Label>
+      <Pane layoutY="400.0" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: rgb(30, 30, 30);">
+         <children>
+            <Label fx:id="lblTokens" layoutX="53.0" layoutY="-6.0" prefHeight="66.0" prefWidth="71.0" text="#" textFill="#ffbf00">
+               <font>
+                  <Font name="Arial" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgPurpleKey" fitHeight="50.0" fitWidth="53.0" layoutX="276.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Desktop/CS-230%20BACKUP/05.12.19%201530/Extra%20Files/keyBlue.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgYellowKey" fitHeight="50.0" fitWidth="53.0" layoutX="326.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Desktop/CS-230%20BACKUP/05.12.19%201530/Extra%20Files/keyYellow.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgFireAmulet" fitHeight="50.0" fitWidth="53.0" layoutX="500.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Desktop/CS-230%20BACKUP/05.12.19%201530/Extra%20Files/fireAmulet.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgWaterAmulet" fitHeight="50.0" fitWidth="53.0" layoutX="550.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Desktop/CS-230%20BACKUP/05.12.19%201530/Extra%20Files/waterAmulet.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgRedKey" fitHeight="50.0" fitWidth="53.0" layoutX="226.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Desktop/CS-230%20BACKUP/05.12.19%201530/Extra%20Files/keyRed.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="53.0" layoutX="6.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Desktop/CS-230%20BACKUP/05.12.19%201530/Extra%20Files/token.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</Pane>

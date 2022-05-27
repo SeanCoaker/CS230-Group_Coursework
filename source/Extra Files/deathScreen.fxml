@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="312.0" fitWidth="483.0" layoutX="-233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@loginBckg.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutY="77.0" prefHeight="68.0" prefWidth="250.0" text="You died!" textFill="#ffbf00">
+         <font>
+            <Font name="Treasure Map Deadhand" size="70.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
